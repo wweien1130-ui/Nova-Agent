@@ -24,6 +24,11 @@ spring:
       - optional:nacos:shared-log.yaml
 
 
+hm:
+  jwt:
+    location: classpath:hmall.jks
+    password: hmall2024
+    alias: hmall
 
 #  redis:
 #    sentinel:
@@ -45,5 +50,3 @@ mybatis-plus:
       id-type: auto
   configuration:
     default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
-
-

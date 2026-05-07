@@ -4,7 +4,7 @@ const topApp = {
     <div class="py-container">
       <div class="shortcut">
         <ul class="fl">
-          <li class="f-item">黑马欢迎您！</li>
+          <li class="f-item">灵可欢迎您！</li>
           <li class="f-item" v-if="!user">
             <a href="/login.html">请登录</a>　
             <span><a href="#">免费注册</a></span>
@@ -19,13 +19,13 @@ const topApp = {
           <li class="f-item space"></li>
           <li class="f-item"><a href="/cart.html">我的购物车</a></li>
           <li class="f-item space"></li>
-          <li class="f-item">我的黑马</li>
+          <li class="f-item">我的灵可</li>
           <li class="f-item space"></li>
-          <li class="f-item">黑马会员</li>
+          <li class="f-item">灵可会员</li>
           <li class="f-item space"></li>
           <li class="f-item">企业采购</li>
           <li class="f-item space"></li>
-          <li class="f-item">关注黑马</li>
+          <li class="f-item">关注灵可</li>
           <li class="f-item space"></li>
           <li class="f-item">客户服务</li>
           <li class="f-item space"></li>

@@ -6,8 +6,8 @@ import org.springframework.core.io.Resource;
 
 import java.time.Duration;
 
-@Data
-@ConfigurationProperties(prefix = "hm.jwt")
+//@Data
+//@ConfigurationProperties(prefix = "hm.jwt")
 public class JwtProperties {
     private Resource location;
     private String password;

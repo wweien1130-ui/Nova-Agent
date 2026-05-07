@@ -17,6 +17,7 @@ com\hmall\common\annotation\NoWrapper.class
 com\hmall\common\domain\dto\OrderFormDTO.class
 com\hmall\common\enums\BaseEnum.class
 com\hmall\common\domain\dto\CartFormDTO.class
+com\hmall\common\config\JwtProperties.class
 com\hmall\common\domain\dto\LoginFormDTO.class
 com\hmall\common\exception\UnauthorizedException.class
 com\hmall\common\domain\dto\PayOrderFormDTO$PayOrderFormDTOBuilder.class
@@ -35,3 +36,4 @@ com\hmall\common\domain\dto\OrderDetailDTO.class
 com\hmall\common\domain\dto\PayApplyDTO.class
 com\hmall\common\utils\Convert.class
 com\hmall\common\domain\vo\OrderVO.class
+com\hmall\common\config\JwtAutoConfig.class

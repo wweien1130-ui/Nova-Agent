@@ -5,140 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e7435e-88a4-45c2-adf0-517e657eef83" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/.claude/settings.local.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/HM-SERVICE-INTERFACE-COMPLETION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/converters/AddressConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/converters/CartConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/converters/ItemConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/converters/OrderConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/util/ToolContextUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/src/main/java/com/hmall/api/client/AddressFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/src/main/java/com/hmall/api/client/CartFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/src/main/java/com/hmall/api/client/ItemFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/src/main/java/com/hmall/api/client/OrderFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/utils/JwtTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/config/JwtAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/hmall.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/README" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/koi-utf" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/koi-utf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/unicode-to-nginx.pl" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/unicode-to-nginx.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/win-utf" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/unicode2nginx/win-utf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/ftdetect/nginx.vim" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/ftdetect/nginx.vim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/ftplugin/nginx.vim" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/ftplugin/nginx.vim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/indent/nginx.vim" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/indent/nginx.vim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/syntax/nginx.vim" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/contrib/vim/syntax/nginx.vim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/CHANGES" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/CHANGES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/CHANGES.ru" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/CHANGES.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/OpenSSL.LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/OpenSSL.LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/PCRE.LICENCE" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/PCRE.LICENCE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/README" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/zlib.LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/docs/zlib.LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/50x.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/50x.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hm-refresh-admin/js/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hm-refresh-admin/js/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/css/pages-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/css/pages-cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/css/webbase2.css" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/css/webbase2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/agent-chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/agent-chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/foot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/js/top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/hmall-portal/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/AgentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/AgentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RedisConfigValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RedisConfigValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RouterAgentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RouterAgentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SessionProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SessionProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SpringAIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SpringAIConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SystemPromptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SystemPromptConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/ToolResultHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/ToolResultHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/constants/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/constants/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/AgentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/AgentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/SessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/controller/SessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/AgentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/AgentRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/AgentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/AgentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/ChatDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/dto/ChatDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/entity/ChatSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/entity/ChatSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/ChatEventVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/ChatEventVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/ChatSessionVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/ChatSessionVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/MessageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/MessageVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/SessionVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/domain/vo/SessionVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/AgentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/AgentTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/ChatEventTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/ChatEventTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/MessageTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/enums/MessageTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/mapper/ChatSessionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/mapper/ChatSessionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MessageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MyAssistantMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MyAssistantMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/MyMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/RedisChatMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/RedisChatMemoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/repository/ChatHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/repository/ChatHistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/repository/InMemoryChatHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/repository/InMemoryChatHistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/AddressInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/AddressInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/CartInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/CartInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/ItemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/ItemInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/result/OrderInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/ChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/ChatSessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/ChatSessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/ChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/ChatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/ChatSessionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/ChatSessionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/RouterAgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/RouterAgentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/AddressTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/AddressTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/CartTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/CartTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/ItemSearchTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/ItemSearchTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/OrderTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/tool/OrderTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/resources/application-local.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/PageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/PageQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/PageQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/domain/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/HMallApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/HMallApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/AIServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/AIServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/AuthProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/AuthProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/agent-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/classes/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/target/classes/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/target/test-classes/com/liang/agent/AgentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-api/target/hm-api-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/hm-common-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/JwtProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/AITestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/AITestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/AddressDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/CartFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/ItemDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/LoginFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/OrderDetailDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/OrderFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/PayApplyDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/dto/PayOrderFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/OrderLogistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/OrderLogistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/PayOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/PayOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/query/ItemPageQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/query/ItemPageQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/vo/CartVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/vo/OrderVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/vo/PayOrderVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/domain/vo/UserLoginVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/PayType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/enums/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/AddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/CartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderLogisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderLogisticsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/PayOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/PayOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IAddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/ICartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderLogisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderLogisticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IPayOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IPayOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderLogisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderLogisticsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/PayOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/PayOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/utils/JwtTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/utils/JwtTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/AuthProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/AuthProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/JwtProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/CartFormDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/ItemDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/LoginFormDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/OrderDetailDTO$OrderDetailDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/OrderDetailDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/OrderFormDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/PayApplyDTO$PayApplyDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/PayApplyDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/PayOrderFormDTO$PayOrderFormDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/dto/PayOrderFormDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/OrderDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/OrderLogistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/OrderLogistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/PayOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/PayOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/po/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/query/ItemPageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/query/ItemPageQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/vo/CartVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/vo/OrderVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/vo/PayOrderVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/domain/vo/UserLoginVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/mapper/ItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/ICartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/ICartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IPayOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IPayOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/PayOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/PayOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/target/classes/com/hmall/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,18 +125,19 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/link-ai" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3DI0Bf7mgp9CnnFWHKFwUH4E8fo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,12 +155,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.AgentApplication.executor": "Run",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/private_project/LiinkAi_Cloud",
+    "last_opened_file_path": "E:/private_project/LiinkAi_Cloud/link-ai/hmall/hm-common/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
@@ -196,6 +169,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\private_project\LiinkAi_Cloud\link-ai\hmall\hm-common\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\private_project\LiinkAi_Cloud\link-ai\hmall\hm-common\src\main\resources\META-INF\spring" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hmall.common.utils" />
     </key>
@@ -270,7 +249,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777954142744</updated>
-      <workItem from="1777954144118" duration="17047000" />
+      <workItem from="1777954144118" duration="19187000" />
+      <workItem from="1777978299856" duration="26000" />
+      <workItem from="1778136118474" duration="1725000" />
     </task>
     <servers />
   </component>

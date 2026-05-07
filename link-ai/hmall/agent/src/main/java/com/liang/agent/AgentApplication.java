@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @MapperScan("com.liang.agent.mapper")
 @EnableFeignClients(basePackages = "com.hmall.api.client")  // 新增
-@SpringBootApplication(scanBasePackages = {"com.liang.agent"},
+@SpringBootApplication(scanBasePackages = {"com.liang.agent", "com.hmall.common"},
     exclude = {org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration.class})
 public class AgentApplication {
 

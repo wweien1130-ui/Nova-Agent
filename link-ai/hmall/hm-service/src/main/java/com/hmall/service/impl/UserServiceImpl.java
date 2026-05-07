@@ -5,7 +5,7 @@ import com.hmall.common.exception.BadRequestException;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.exception.ForbiddenException;
 import com.hmall.common.utils.UserContext;
-import com.hmall.config.JwtProperties;
+import com.hmall.common.config.JwtProperties;
 import com.hmall.common.domain.dto.LoginFormDTO;
 import com.hmall.domain.po.User;
 import com.hmall.common.domain.vo.UserLoginVO;
