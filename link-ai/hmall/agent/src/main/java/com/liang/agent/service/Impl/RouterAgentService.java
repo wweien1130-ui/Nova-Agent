@@ -22,6 +22,7 @@ import org.apache.catalina.connector.ClientAbortException;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.messages.AssistantMessage;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.FluxSink;
@@ -37,8 +38,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @RequiredArgsConstructor
 public class RouterAgentService {
 
-
-//    @Qualifier("routerChatClient") TODO 可以采取二级策略，precise intent + fuzzy intent
+// TODO 可以采取二级策略，precise intent + fuzzy intent
+//    @Qualifier("routerChatClient")
     private final ChatClient routerChatClient;
 
 //    @Qualifier("itemChatClient")
@@ -98,12 +99,49 @@ public class RouterAgentService {
         if (containsAny(q, KEYWORDS_ADDRESS)) return AgentTypeEnum.ADDRESS;
         if (containsAny(q, KEYWORDS_CONFIRM)) return AgentTypeEnum.CART; // 确认语默认路由到 CART（加购）
         // 默认走 ITEM（商品搜索）
-        return AgentTypeEnum.ITEM;
+//        return AgentTypeEnum.ITEM;
+
+        // 关键字无法精确匹配，交给 LLM 分析意图
+        return routeByLLM(question);
     }
 
+    /**
+     * 检查文本是否包含任何关键词，使用 contains 子串匹配
+     */
     private boolean containsAny(String text, List<String> keywords) {
         return keywords.stream().anyMatch(text::contains);
     }
+
+
+
+    /**
+     * LLM 路由：当本地规则匹配失败时，使用 LLM 分析意图
+     */
+    private AgentTypeEnum routeByLLM(String question) {
+        try {
+            String result = routerChatClient.prompt()
+                    .user(question)
+                    .call()
+                    .content();
+
+            // ✅ 用 extractJsonFromResponse 处理 markdown 包裹的情况
+            String cleanJson = extractJsonFromResponse(result);
+            if (cleanJson == null) {
+                return AgentTypeEnum.ITEM;
+            }
+
+            return parseRouterResult(cleanJson);
+        } catch (Exception e) {
+            log.error("LLM 路由失败", e);
+            return AgentTypeEnum.ITEM;
+        }
+    }
+
+
+
+
+
+
 
     /**
      * 路由处理入口
@@ -354,8 +392,9 @@ public class RouterAgentService {
 
     /**
      * 解析 Router 返回的 JSON，提取 question
+     * 解析 LLM 返回的 question 字段，将问题进行润色，确保问题符合智能体的处理能力,暂时不用
      */
-    private String parseRouterQuestion(String json) {
+    /*private String parseRouterQuestion(String json) {
         try {
             String cleanJson = extractJsonFromResponse(json);
             if (cleanJson == null) {
@@ -367,7 +406,7 @@ public class RouterAgentService {
             log.error("解析 Router 返回的 question 失败", e);
             return null;
         }
-    }
+    }*/
 
     /**
      * 根据智能体类型获取对应的 ChatClient

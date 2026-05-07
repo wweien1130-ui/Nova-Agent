@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e7435e-88a4-45c2-adf0-517e657eef83" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/JwtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall-nginx/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall-nginx/logs/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/AIServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RouterAgentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/RouterAgentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SystemPromptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/config/SystemPromptConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/RedisChatMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/memory/RedisChatMemoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/RouterAgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/agent/src/main/java/com/liang/agent/service/Impl/RouterAgentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/config/JwtAutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/utils/JwtTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/java/com/hmall/common/utils/JwtTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/com/hmall/common/config/JwtAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/com/hmall/common/utils/JwtTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-common/target/classes/com/hmall/common/utils/JwtTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/JwtProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-ai/hmall/hm-service/src/main/java/com/hmall/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hm-agent/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hm-agent/spring.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +28,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -174,7 +157,7 @@
       <workItem from="1778136118474" duration="6261000" />
       <workItem from="1778154289713" duration="760000" />
       <workItem from="1778155229831" duration="143000" />
-      <workItem from="1778155387719" duration="7602000" />
+      <workItem from="1778155387719" duration="10368000" />
     </task>
     <servers />
   </component>
